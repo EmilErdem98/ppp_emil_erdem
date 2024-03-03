@@ -97,14 +97,11 @@
   }
 
   .grid-container-1-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
     background-color: #fcbe8f;
     border-radius: 20px;
     padding: 20px;
     margin: 0% 5%;
-    height: 67vh;
+    height: 90vh;
     position: relative;
   }
 
@@ -202,7 +199,7 @@
     padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 38vh;
+    height: 45vh;
     margin-bottom: 3%;
   }
 
@@ -211,7 +208,7 @@
     padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 38vh;
+    height: 45vh;
     margin-bottom: 3%;
   }
 
@@ -220,7 +217,7 @@
     padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 38vh;
+    height: 45vh;
     margin-bottom: 3%;
   }
 
@@ -229,7 +226,7 @@
     padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 38vh;
+    height: 45vh;
     margin-bottom: 3%;
   }
 
