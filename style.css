@@ -118,7 +118,7 @@
     grid-column: 2 / 3;
   }
   img {
-    max-width: 45%;
+    max-width: 35%;
     height: auto;
     position: absolute;
     bottom: 0;
@@ -166,7 +166,7 @@
 
   .icon img {
     max-width: 60px;
-    padding-right: 365px;
+    padding-right: 465px;
   }
 
   .content p {
@@ -209,37 +209,37 @@
   .item-1_1 {
     grid-column: 1 / 2;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 42vh;
+    height: 38vh;
   }
 
   .item-2_1 {
     grid-column: 2 / 3;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 42vh;
+    height: 38vh;
   }
 
   .item-3_1 {
     grid-column: 3 / 4;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 42vh;
+    height: 38vh;
   }
 
   .item-4_1 {
     grid-column: 4 / 5;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 15px;
     background-color: #5b9589;
     position: relative;
-    height: 42vh;
+    height: 38vh;
   }
 
   .list_farve li {
