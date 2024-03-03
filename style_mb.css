@@ -1,0 +1,275 @@
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-size: cover;
+    background-color: #001f22;
+  }
+
+  header {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 20px;
+    z-index: 1000;
+  }
+
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  .social-icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+  }
+
+  .icon-facebook {
+    background-image: url("img/fb.svg");
+  }
+
+  .icon-linkedin {
+    background-image: url("img/link.svg");
+  }
+
+  .icon-instagram {
+    background-image: url("img/insta.svg");
+  }
+
+  h1 {
+    font-family: "Ovo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.3;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0% 5%;
+  }
+
+  h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #001f22;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  li {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    color: #001f22;
+    margin-left: 50px;
+  }
+
+  p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #001f22;
+  }
+
+  .grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .grid-container-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #fcbe8f;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0% 5%;
+    height: 67vh;
+    position: relative;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .grid-container-1-1-1 {
+    margin: 3% 5%;
+    gap: 20px;
+  }
+
+  .item-1 {
+    border-radius: 20px;
+    background-color: #017a75;
+    margin-bottom: 3%;
+  }
+
+  .item-1 p {
+    margin: 15px;
+  }
+
+  .item-2 {
+    border-radius: 20px;
+    background-color: #017a75;
+    margin-bottom: 3%;
+  }
+
+  .item-2 p {
+    margin: 15px;
+  }
+
+  .item-3 {
+    border-radius: 15px;
+    background-color: #017a75;
+    margin-bottom: 3%;
+  }
+
+  .item-3 p {
+    margin: 20px;
+  }
+
+  .box {
+    margin: 5px;
+    padding-bottom: 5px;
+  }
+
+  .icon {
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .icon img {
+    max-width: 40px;
+  }
+
+  .content :is(h2, p) {
+    margin-top: 0;
+    color: #ffffff;
+  }
+
+  .grid-container-1-1-1-1 {
+    margin: 0% 5%;
+  }
+
+  .item-1_1 p {
+    margin: 15px;
+    color: #ffffff;
+  }
+
+  .item-2_1 p {
+    margin: 15px;
+    color: #ffffff;
+  }
+
+  .item-3_1 p {
+    margin: 15px;
+    color: #ffffff;
+  }
+
+  .item-4_1 p {
+    margin: 15px;
+    color: #ffffff;
+  }
+
+  .item-1_1 {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #5b9589;
+    position: relative;
+    height: 38vh;
+    margin-bottom: 3%;
+  }
+
+  .item-2_1 {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #5b9589;
+    position: relative;
+    height: 38vh;
+    margin-bottom: 3%;
+  }
+
+  .item-3_1 {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #5b9589;
+    position: relative;
+    height: 38vh;
+    margin-bottom: 3%;
+  }
+
+  .item-4_1 {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #5b9589;
+    position: relative;
+    height: 38vh;
+    margin-bottom: 3%;
+  }
+
+  .list_farve li {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 25px;
+  }
+
+  .erf img {
+    max-width: 90%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .erf p {
+    font-size: 10px;
+  }
+
+  .footer {
+    background-color: #5b9589;
+    text-align: center;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px 5%;
+    margin-bottom: 2%;
+  }
+
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+}
